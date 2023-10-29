@@ -2,10 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>IMDB Clone</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    
+    <!-- navigation bar which containes home-button, search-box and goto-favourites-button -->
+    <header id="navigation-bar">
+
+        <!-- home-button which redirect user to home page -->
+        <button id="home-button" class="text-icon-button">
+            <img src="./Icons/home_icon.png">
+            <span>Home</span>
+        </button>
+
+        <!-- search box -->
+        <input type="text" id="search-box" placeholder="Movies Search Here ...">
+
+        <!-- goto-favourites-button redirect user to the favourites movie page -->
+        <button id="goto-favourites-button" class="text-icon-button">
+            <img src="./Icons/fav_folder.png">
+            <span>favourite Movies</span>
+        </button>
+
+    </header>
+
+
+    <main id="movie-card-container" style="font-weight: bold;">
+        
+    </main>
+
+    <script src="./script.js"></script>
 </body>
 </html>
